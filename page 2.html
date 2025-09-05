@@ -20,6 +20,16 @@
             z-index: -1;
         }
 
+        .text {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         .main {
             z-index: 10;
             width: 100vw;
@@ -72,13 +82,16 @@
     <div class="all">
         <div class="main">
         </div>
-        <p style="color: black;">I Love You Meri Jaan &#128536;</p>
-        <p style="color: red;">Za tha sara meena Kaom &#128525;</p>
+        <div class="text">
+            <p style="color: black;">I Love You Meri Jaan &#128536;</p>
+            <p style="color: red;">Za tha sara meena Kaom &#128525;</p>
+        </div>
     </div>
 </body>
 
 
 </html>
+
 
 
 
